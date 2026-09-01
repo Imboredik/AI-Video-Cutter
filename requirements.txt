@@ -1,0 +1,25 @@
+# GUI
+PyQt6>=6.7.0
+
+# Работа с видео и аудио
+ffmpeg-python>=0.2.0
+soundfile>=0.12.0
+torch>=2.0.0
+torchaudio>=2.0.0
+torchvision>=0.15.0
+
+# GigaAM (установим позже отдельно)
+# gigaam @ git+https://github.com/salute-developers/GigaAM.git
+
+# Работа с API и окружением
+openai>=1.0.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Утилиты
+pillow>=10.0.0
+numpy>=1.24.0
+tqdm>=4.65.0
+
+# Для сборки exe
+pyinstaller>=6.0.0
